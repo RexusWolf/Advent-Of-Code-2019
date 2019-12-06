@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add --dev @types/jest
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/rexuswolf/Desktop/DEV/TapasDojo Typescript/node_modules/define-property/node_modules/kind-of'
+
+npm manifest: 
+  {
+    "name": "tapas-dojo-typescript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+      "jest": "^24.9.0",
+      "ts-jest": "^24.1.0",
+      "typescript": "^3.6.4"
+    },
+    "scripts": {
+      "build": "babel src -d lib",
+      "test": "jest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
