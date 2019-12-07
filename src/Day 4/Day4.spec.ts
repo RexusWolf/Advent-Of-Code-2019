@@ -64,7 +64,7 @@ describe('PasswordDecrypter', () => {
     })
     it('should be adjacent', () =>{
         let passworddecrypter = new PasswordDecrypter('108457-562041');
-        let value: number = 111110;
+        let value: number = 333111;
         expect(passworddecrypter.hasAdjacent(value)).toBe(0);
     })
 })

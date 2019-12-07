@@ -38,6 +38,9 @@ export class PasswordDecrypter{
                     triple = 1;
                 }
             }
+            else{
+                triple = 0;
+            }
             numbersread.unshift(actualdigit);
         }
         return double;
